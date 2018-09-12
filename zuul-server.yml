@@ -1,3 +1,7 @@
+#Server Port
+server:
+  port: 8787
+  
 #Spring Application Name
 spring:
   application:
@@ -5,10 +9,6 @@ spring:
 
 config:
   saludo: Configuración Zuul Server en Config Server
-
-#Server Port
-server:
-  port: 8787
 
 #Eureka
 eureka:

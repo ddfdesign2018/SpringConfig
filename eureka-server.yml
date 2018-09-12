@@ -1,0 +1,12 @@
+server:
+  port: 8761
+  
+config:
+  saludo: Configuracion Eureka en Config Server
+  
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:${server.port}/eureka

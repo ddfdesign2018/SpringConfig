@@ -3,6 +3,9 @@ spring:
   application:
     name: Zuul-Server
 
+config:
+  saludo: Configuración Zuul Server en Config Server
+
 #Server Port
 server:
   port: 8787

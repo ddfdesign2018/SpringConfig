@@ -1,5 +1,5 @@
 server:
-  port: 8065
+  port: 8063
 config:
   saludo: Configuration Microservicio Cachorro en Config Server
 
